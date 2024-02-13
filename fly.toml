@@ -1,13 +1,13 @@
-# fly.toml app configuration file generated for docker-nginx-1 on 2024-02-13T16:25:34+09:00
+# fly.toml app configuration file generated for docker-nginx-1-aged-dew-2083 on 2024-02-13T18:48:07+09:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'docker-nginx-1'
+app = 'docker-nginx-1-aged-dew-2083'
 primary_region = 'nrt'
 
 [build]
-  image = "minhee84/nginx-my-html:0.2.0"
+  image = 'minhee84/blog:0.3.0'
 
 [http_service]
   internal_port = 80
