@@ -7,7 +7,7 @@ app = 'docker-nginx-1'
 primary_region = 'nrt'
 
 [build]
-  image = "nginx"
+  image = "minhee84/nginx-my-html:0.2.0"
 
 [http_service]
   internal_port = 80
