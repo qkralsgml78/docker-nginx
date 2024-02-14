@@ -7,7 +7,7 @@ app = 'docker-nginx-1-aged-dew-2083'
 primary_region = 'nrt'
 
 [build]
-  image = 'minhee84/blog:0.3.0'
+  image = 'minhee84/sooblog:0.2.0'
 
 [http_service]
   internal_port = 80
